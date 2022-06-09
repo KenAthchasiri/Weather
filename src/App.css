@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  background: linear-gradient(45deg,#185aad,#43c2a2);
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section{
+  margin-top: 7%;
+  text-align: center;
+}
+.card{
+  width: 500px;
+  box-shadow: 0 10px 0 #515154;
+}
+.weather{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background: orange;
+  height: 10vh;
+  padding: 20px 0;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.weather h1{
+  margin: 0;
+  font-size: 3rem;
+
+}
+.location{
+  color: white;
+}
+.city{
+  margin: 0;
+  font-size: 2rem;
+}
+.state{
+  margin-top: 0;
+}
+.info{
+  display: flex;
+  background: white;
+
+}
+
+.info *{
+  padding: 20px;
+  flex: 1;
+  border-right: 1px solid #e6e6e6;
+}
+.search{
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.search-bar{
+  
+  width: 85px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 10px;
+  transition: 0.4s ease-in-out;
+}
+.search-bar:focus{
+  width: 300px;
+  outline: none;
+}
+
+.search-btn{
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.error{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  width: 500px;
+  height: 150px;
+  
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: orange;
+  
+}
+
+
+
